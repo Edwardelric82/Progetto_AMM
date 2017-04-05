@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5-apr-2017, 0.57.26
+    Author     : tensaigigi
+*/
+
+/*CSS Style ||| Lorrai Pierluigi - 652000 ||| */
+
+/* impostazione !body! */
+
+    body{   
+            background-color: #212121;
+    
+    }
+    
+    
+    h1{
+            background-image: url('sky2.gif');
+            background-repeat: repeat-x;
+            color:#eaff00;
+            font-family: "Times New Roman", Georgia, Serif;
+            
+        
+    }
+    
+    h2{
+            color:#2dff2e;
+            font-family: "Times New Roman", Georgia, Serif;
+        
+    }
+    
+    h3{
+            color:#28e4d9;
+            font-family: "Times New Roman", Georgia, Serif;
+    }
+    
+    p{
+            font-family: "Times New Roman", Georgia, Serif;
+            color:#fdac1a;
+        
+    }
+    
+    nav{
+        background-image: url('sky2.gif');
+        background-repeat: repeat-x;
+        
+            
+                
+    }
+    
+    /* Grafica Dei Link  */
+    a:link{
+            text-decoration: underline;
+            color: #ff25f8;
+            }
+
+    a:visited{
+            text-decoration: underline;
+            color: #ff25f8;
+            }
+
+    a:hover{
+            font-weight: bold;
+
+    }
+    
+    
