@@ -8,42 +8,54 @@
         <meta name="keywords" content="social,network,nerd,book,nerdbook,amici,socializzare,">
         <meta name="description" content="Nerdbook è il nuovo social network che permette agli utenti di stringere amicizie e di creare e gestire dei gruppi di nerd!">
         <meta name="author" content="Lorrai Pierluigi">
-        <meta http-equiv="refresh" content="60">
+        
         <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     
     </head>
     
     <body>
         
-        <h1>NerdBook</h1> 
-        <hr/>
-        
-        <nav>    
-        <a href="index.html"> HOME</a> 
-        <a href="descrizione.html">  Descrizione</a>
-        <a href="login.html"> Login</a>
-        <a href="bacheca.html"> Bacheca</a>
-        <a href="profilo.html"> Profilo</a>
-        </nav> 
-        
-        <hr/>
-        
-        
-        <form action="pagina.php" method="post">
-            
-            <label for="user">Username</label>
-            <br>
-            <input type="user">
-            <br>
-            
-            <label for="pswd">Password</label>
-            <br>
-            <input type="password">
-            <br>
-            
-            <input type="submit" value="Login"/>
+        <div class="header">
+          
+            <div class="title">
+                <h1>NerdBook</h1>
+            </div>
+
+            <div class="nav">
                 
+            <h1 class="cl1"><a href="index.html"> HOME</a></h1> 
+            <h1 class="cl1"><a href="descrizione.html">  Descrizione</a></h1> 
+            <h1 class="cl1"><a href="login.html"> Login</a></h1> 
+            <h1 class="cl1"><a href="bacheca.html"> Bacheca</a></h1> 
+            <h1 class="cl1"><a href="profilo.html"> Profilo</a></h1> 
+                
+            </div>
+            <div class="clear"></div>   
+        </div>
+        
+        
+        
+        
+        
+        <form action="pagina.php" class="input" method="post">
+            
+            <label for="user" style="margin-left: 5px;" ><strong>Username</strong></label>
+            <br>
+            <input type="user" style="margin-left: 5px;margin-bottom: 5px;width: 170px;" >
+            <br>
+            
+            
+            <label for="pswd" style=" margin-left: 5px;" ><strong>Password</strong></label>
+            <br>
+            <input type="password" style="margin-left: 5px;width: 170px;" >
+            <br>
+            
+            <input type="submit" style="margin-top: 10px; margin-left: 67px;" value="Login"/>
         </form>
+        
+           
+        
+        
         
     </body>
 </html>

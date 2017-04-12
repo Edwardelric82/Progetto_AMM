@@ -4,69 +4,95 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="social,network,nerd,book,nerdbook,amici,socializzare,">
-        <meta name="description"content="Nerdbook è il nuovo social network che permette agli utenti di stringere amicizie e di creare e gestire dei gruppi di nerd!">
-        <meta name="author"content="Lorrai Pierluigi">
-        <meta http-equiv="refresh"content="60">
+        <meta name="description" content="Nerdbook è il nuovo social network che permette agli utenti di stringere amicizie e di creare e gestire dei gruppi di nerd!">
+        <meta name="author" content="Lorrai Pierluigi">
+        
         <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     </head>
     <body>
-        <h1>NerdBook</h1> 
-        <hr/>
+        <div class="header">
+          
+            <div class="title">
+                <h1>NerdBook</h1>
+            </div>
+
+            <div class="nav">
+                
+            <h1 class="cl1"><a href="index.html"> HOME</a></h1> 
+            <h1 class="cl1"><a href="descrizione.html">  Descrizione</a></h1> 
+            <h1 class="cl1"><a href="login.html"> Login</a></h1> 
+            <h1 class="cl1"><a href="bacheca.html"> Bacheca</a></h1> 
+            <h1 class="cl1"><a href="profilo.html"> Profilo</a></h1> 
+                
+            </div>
+            <div class="clear"></div>   
+        </div>
         
-        <nav>    
-        <a href="index.html"> HOME</a> 
-        <a href="descrizione.html">  Descrizione</a>
-        <a href="login.html"> Login</a>
-        <a href="bacheca.html"> Bacheca</a>
-        <a href="profilo.html"> Profilo</a>
-        </nav> 
+        <div class="sidebar">
+            
+            <center><h2>Persone</h2></center>
+            <p>
+            Poba
+            <br>
+            Amm
+            <br>
+            Minculu
+            </p>
+            
+            
+            
+            
+            
+            
+        </div>
         
         
-        <hr/>
-        
-        <form action="pagina.php" method="post">
+        <div class="profilo">
+        <form action="pagina.php"  method="post">
             
             <label for="nome">Nome</label>
-            <br>
-            <input type="nome">
+            
+            <input type="nome" class="inlabel">
             <br>
             
             <label for="cognome">Cognome</label>
-            <br>
-            <input type="cognome"> 
+            
+            <input type="cognome" class="inlabel"> 
             <br>
             
             <label for="profile_image">Immagine Profilo</label>
-            <br>
-            <input type="url"> 
+            
+            <input type="url" class="inlabel"> 
             <br>
             
             <label for="descrizione">Frase di Presentazione</label>
-            <br>
-            <textarea rows="3" cols="20"
-                      name="descrizione" id="descr">
+            
+            <textarea  class="inlabel" name="descrizione" >
             </textarea>
             <br>
             
             <label for="date">Data di Nascita</label>
-            <br>
-            <input type="date"> 
+            
+            <input type="date" class="inlabel"> 
             <br>
             
             <label for="pswd">Password</label>
-            <br>
-            <input type="password"> 
+            
+            <input type="password" class="inlabel"> 
             <br>
             
             <label for="pswd">Conferma Password</label>
-            <br>
-            <input type="password"> 
+            
+            <input type="password" class="inlabel"> 
             <br>
             
-            <input type="submit" value="Registrati"/>
-            <button type="reset"> Reset </button>
+            <input type="submit" value="Aggiorna" class="inlabel"/>
             
+        
         </form>
+        </div>    
+        
+        
         
     </body>
 </html>
