@@ -1,0 +1,217 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5-apr-2017, 0.57.26
+    Author     : tensaigigi
+*/
+
+/*CSS Style ||| Lorrai Pierluigi - 652000 ||| */
+
+/* impostazione !body! */
+
+    body{   
+            background-color: #212121;
+            font-family: "Century Gothic";
+            margin: 15px;
+    }
+    
+    .page{
+            
+            width: 99%;
+        
+        
+    }
+    
+    
+    .header{
+            background-color:#fdac1a; 
+            margin: 5px;
+            vertical-align: top;
+            width: 99%;
+    }
+    
+    .title{
+            margin: 20px;
+            float: left;
+    }
+    
+    .nav{
+            
+            margin-top: 75px;
+            margin-right: 25px;
+            float:right;
+            display: inline-block;
+    }
+    
+    
+    .sidebar{
+            margin-top: -5px;
+            float: left;
+            margin-left: 5px;
+            
+            height: 100%;
+            width: 18%;
+            background-color: #fdac1a;
+            border-style: solid;
+            border-color: #ce7d0e;
+            color:#eaff00;
+            border-collapse: collapse; 
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    .content{
+               
+            
+            margin-left: -3px;
+            display: inline-block;
+            width: 78.1%;
+            
+        
+        
+        
+    }
+    
+    .articolo{
+            background-color: #fdac1a;
+            margin-top: -5px;
+            
+            color:#eaff00;
+            
+            border-style: solid;
+            border-color: #ce7d0e;
+            padding: 10px;
+            
+            border-collapse: collapse;
+                
+                
+                
+                
+    }
+    
+    .sezione{
+        
+        
+        
+    }
+    
+    .footer{
+        
+        
+        
+        
+    }
+    
+    .clear{
+            clear:both;
+    }
+    
+    h1{
+            
+            color:#eaff00;       
+    }
+    
+    h1.cl1{
+            
+            margin: 10px;
+            font-size: 15px;
+            display: inline-block;
+            
+    }
+    
+    
+    h2{ 
+            color:#2dff2e;
+            text-align: center;
+    }
+    
+    h3{
+            color:#28e4d9;        
+    }
+    
+    p{
+            color:#fdac1a;
+    }
+    
+    
+    
+    .validator{
+    
+            text-align: center;
+            padding-bottom: 5px;
+     
+    }
+    
+    /*Campi di Input */
+    
+    .input{
+            background-color: #fdac1a;
+            margin-top: 50px;
+            margin-left: 350px;
+            margin-right: 350px;
+            color:#eaff00;
+            left: 50%;
+            border-style: solid;
+            border-color: #ce7d0e;
+            padding: 10px;
+            width: 180px;
+            
+    }
+    
+    .profilo{
+            
+        
+            background-color: #fdac1a;
+            margin-top: -5px;
+            margin-left: 168px;
+            margin-right: 350px;
+            color:#eaff00;
+            left: 50%;
+            border-style: solid;
+            border-color: #ce7d0e;
+            padding: 10px;
+            width: 78.1%;
+            border-collapse: collapse;
+        
+        
+        
+        
+    }
+    
+    .inlabel{
+            
+            margin-bottom:  10px;
+            width: 175px;
+            
+        
+        
+        
+    }
+    
+    
+    
+    /* Grafica Dei Link  */
+
+    
+    a:link{
+            
+            color:#eaff00;
+    }
+
+    a:visited{
+            
+            color: #eaff00;
+    }
+
+    a:hover{
+            font-weight: bold;
+
+    }

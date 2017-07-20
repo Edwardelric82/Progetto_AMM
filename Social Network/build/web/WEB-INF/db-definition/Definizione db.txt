@@ -1,0 +1,47 @@
+utenti:
+
+id_utente (primary key)
+nome
+cognome
+sesso
+datanascita
+immprofilo
+descrizione
+password
+email
+
+
+post:
+
+id_post(primary key)
+post
+immagine
+link_post
+utente(foreign key)
+id_utentebacheca(foreign key)
+
+
+gruppo:
+
+id_gruppo(primary key)
+nome
+immgr
+proputente
+descrizione
+
+utenti : sono presenti i dati degli utenti registati
+post: sono presenti i dati dei post collegati all'utente
+gruppo: sono presenti i dati del gruppo collegati all'admin e alla lista degli utenti
+
+Un utente puo avere molti post
+Un utente puo avere pi� gruppi
+
+Un post puo essere di un solo utente
+Un post puo essere di un gruppo
+
+Un gruppo puo avere molti utenti
+Un gruppo puo avere molti amministratori
+Un gruppo puo avere molti post
+
+
+
